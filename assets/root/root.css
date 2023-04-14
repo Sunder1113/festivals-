@@ -1,0 +1,147 @@
+:root {
+    /* font-size */
+    --fs-xm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-2xl: 24px;
+
+    /* font-weight */
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+
+    /* bg-color */
+    --bg-primery: #2c49fe;
+    --bg-white: #ffffff;
+    --bg-black: #000000;
+
+
+    /* line-height */
+    --lh-18: 18px;
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-135: 135%;
+    --lh-150: 150%;
+    --lh-180: 180%;
+
+    /* text-color */
+    --text-white: white;
+    --text-black: black;
+    /* ----------------------------------------font-family----------------------------- */
+}
+
+.fs_xm {
+    font-size: var(--fs-xm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+/* ----------------------------------------------font-weight---------------------------------- */
+
+.fw_normal {
+    font-weight: var(--fw-normal);
+}
+
+.fw_medium {
+    font-weight: var(--fw-medium);
+}
+
+.fw_semibold {
+    font-weight: var(--fw-semibold);
+}
+
+.fw_bold {
+    font-weight: var(--fw-bold);
+}
+
+/* -------------------------------------------line-height------------------------------------------- */
+.lh_18 {
+    line-height: var(--lh-18);
+}
+
+.lh_21 {
+    line-height: var(--lh-21);
+}
+
+.lh_24 {
+    line-height: var(--lh-24);
+}
+
+.lh_135 {
+    line-height: var(--lh-135);
+}
+
+.lh_150 {
+    line-height: var(--lh-150);
+}
+
+.lh_180 {
+    line-height: var(--lh-180);
+}
+
+/* ----------------------------------------------text-color--------------------------------------------- */
+.text_white {
+    color: var(--text-white);
+
+}
+
+.text_black {
+    color: var(--text-black);
+
+}
+
+/* ------------------------------------------bg-color-------------------------------------------- */
+.bg_primery {
+    background-color: var(--bg-primery);
+}
+
+.bg_black {
+    background-color: var(--bg-black);
+}
+
+.bg_white {
+    background-color: var(--bg-white);
+}
+
+
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs-lg: 18px;
+        --fs-xl: 34px;
+        --fs-2xl: 36px;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+        --fs-lg: 20px;
+        --fs-xl: 36px;
+        --fs-2xl: 48px;
+    }
+}
