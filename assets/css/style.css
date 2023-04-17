@@ -166,10 +166,9 @@
 
 .pos-abs {
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     transition: all .2s linear;
     cursor: pointer;
 }
@@ -394,13 +393,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: all .1s linear;
+    transition: all 0.2s linear;
 }
 
 .grid_container img:hover {
     border-radius: 30px;
     scale: 1.02;
-    transform: translateY(-5px);
+
 }
 
 .scale:hover {
@@ -706,6 +705,10 @@ input[type="checkbox"] {
     .ms-0 {
         margin-left: 0;
     }
+
+    .flex-row {
+        flex-direction: row;
+    }
 }
 
 @media (min-width:320px) {
@@ -721,4 +724,8 @@ input[type="checkbox"] {
         margin-left: 12px;
     }
 
+    .sm-flex-direction {
+        flex-direction: column;
+
+    }
 }
