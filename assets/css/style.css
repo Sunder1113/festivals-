@@ -474,6 +474,10 @@ input[type="checkbox"] {
     position: relative;
 }
 
+.flex_column_revers {
+    flex-direction: column-reverse;
+}
+
 .uperliner::after {
     content: "";
     position: absolute;
@@ -571,6 +575,10 @@ input[type="checkbox"] {
 
     .sm-mb-3 {
         margin-bottom: 16px;
+    }
+
+    .s-flex-direction-reverse {
+        flex-direction: column-reverse;
     }
 }
 
@@ -677,6 +685,18 @@ input[type="checkbox"] {
         justify-content: start;
     }
 
+    .lg-flex-initial {
+        flex-direction: initial;
+    }
+
+    .lg-flex-start {
+        display: flex;
+    }
+
+    .flex_direction_lg_row {
+        flex-direction: row;
+    }
+
 
 
 }
@@ -751,12 +771,14 @@ input[type="checkbox"] {
         margin-left: 12px;
     }
 
-    .sm-flex-direction {
-        flex-direction: column;
 
-    }
 
     .justify-start {
         justify-content: start;
+    }
+
+    .width1-100 {
+        width: 100%;
+
     }
 }
