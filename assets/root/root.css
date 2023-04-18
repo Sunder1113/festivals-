@@ -30,7 +30,7 @@
 
     /* text-color */
     --text-white: white;
-    --text-black: black;
+    --text-black: #666666;
     /* ----------------------------------------font-family----------------------------- */
 }
 
@@ -108,8 +108,7 @@
 }
 
 .text_black {
-    color: var(--text-black);
-
+    color: var(--bg-black);
 }
 
 /* ------------------------------------------bg-color-------------------------------------------- */
@@ -133,8 +132,6 @@
         --fs-xl: 34px;
         --fs-2xl: 36px;
     }
-
-
 }
 
 @media (min-width:992px) {
